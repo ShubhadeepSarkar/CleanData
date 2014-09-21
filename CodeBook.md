@@ -8,7 +8,8 @@ The signals were used to estimate variables of the feature vector for each patte
 
 The prefix 't' denotes time domain while 'f' denotes time frequency domain:  
 
----
+---  
+
 tBodyAcc-XYZ  
 tGravityAcc-XYZ  
 tBodyAccJerk-XYZ  
@@ -26,5 +27,5 @@ fBodyAccMag
 fBodyAccJerkMag  
 fBodyGyroMag  
 fBodyGyroJerkMag  
----
-  
+
+---  
