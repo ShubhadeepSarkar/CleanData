@@ -59,7 +59,7 @@ filteredActivity <- cbind(subject,activity,filteredActivity)
 ## capture the features that are required 
 filteredfeatures <- (cbind(features,mean_std_features)[mean_std_features==TRUE,])$V2
 
-## clean the paranthesis and he hyphens from the features
+## clean the paranthesis and the hyphens from the features
 cleanfeatures <- function(features) {
         tolower(gsub("(\\(|\\)|\\-)","",features))
 }
